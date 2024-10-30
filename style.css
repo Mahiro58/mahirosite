@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-box {
+    display: block;
+    background-color: rgba(146, 146, 146, 0.6);
+    padding: 1.25rem;
+    border-radius: 25px;
+    max-width: 37.5rem;
+    min-width: 20%;
+    min-height: 35%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.main-footer {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    width: 100%;
+    margin-top: auto;
+}
+
+.box-footer {
+    margin-top: auto;
+    text-align: center;
+    padding-top: 1em;
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.img-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.github-button:hover {
+    background-color: #555;
+}
